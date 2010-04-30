@@ -1,0 +1,7 @@
+_ReSharper.Voo.University.WSP/*
+*.user
+*.dll
+*.pdb
+_UpgradeReport_Files/*
+Backup*/*
+Backup*

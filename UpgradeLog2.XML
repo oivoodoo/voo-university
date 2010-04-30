@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Voo.University.WSP">
+</Property><Property Name="Solution File" Value="E:\Projects\voo-university\Voo.University.WSP.sln">
+</Property><Property Name="Date" Value="Thursday, April 29, 2010">
+</Property><Property Name="Time" Value="22:52:30 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="Voo.Console" Source="Voo.Console\Voo.Console.csproj" Description="Project file successfully backed up as E:\Projects\voo-university\Backup\Voo.Console.csproj">
+</Event><Event ErrorLevel="0" Project="Voo.Console" Source="Voo.Console\Program.cs" Description="File successfully backed up as E:\Projects\voo-university\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="Voo.Console" Source="Voo.Console\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\Projects\voo-university\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Voo.Console" Source="Voo.Console\Voo.Console.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Voo.Console" Source="Voo.Console\Voo.Console.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Voo.Console" Source="Voo.Console\Voo.Console.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

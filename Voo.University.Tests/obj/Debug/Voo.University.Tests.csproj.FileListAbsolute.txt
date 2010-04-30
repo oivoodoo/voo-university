@@ -1,0 +1,7 @@
+E:\Projects\voo-university\Voo.University.Tests\bin\Debug\Voo.University.Tests.dll
+E:\Projects\voo-university\Voo.University.Tests\bin\Debug\Voo.University.Tests.pdb
+E:\Projects\voo-university\Voo.University.Tests\bin\Debug\Voo.University.Models.dll
+E:\Projects\voo-university\Voo.University.Tests\bin\Debug\Voo.University.Models.pdb
+E:\Projects\voo-university\Voo.University.Tests\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\voo-university\Voo.University.Tests\obj\Debug\Voo.University.Tests.dll
+E:\Projects\voo-university\Voo.University.Tests\obj\Debug\Voo.University.Tests.pdb

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="dac45ce3-8b5f-456f-8227-c5571e1cfb69" name="oivoodoo@OIVOODOO-PC 2010-04-05 18:25:22" runUser="oivoodoo-PC\oivoodoo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Default Run Configuration" id="a45f0b83-3eb5-4971-b809-f0be87da76b7">
+    <Deployment runDeploymentRoot="E:\Projects\voo-university\Voo.University.Tests\bin\Debug\TestResults\oivoodoo_OIVOODOO-PC 2010-04-05 18_25_22" />
+    <Hosts skipUnhostableTests="false" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2010-04-05T18:25:22.5375970+03:00" queuing="2010-04-05T18:25:23.6196589+03:00" start="2010-04-05T18:25:23.7336654+03:00" finish="2010-04-05T18:25:24.0746849+03:00" />
+  <TestDefinitions>
+    <UnitTest name="TestContstructors" storage="e:\projects\voo-university\voo.university.tests\bin\debug\voo.university.tests.dll" id="de3f3d30-04e8-73d4-7ba2-55bf5165a78c">
+      <Css projectStructure="" iteration="" />
+      <Execution timeOut="1800000" id="a50cade5-ce64-4db6-88e1-ebb18de0b3ad" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="E:/Projects/voo-university/Voo.University.Tests/bin/Debug/Voo.University.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter" className="Voo.University.Tests.StudentTest, Voo.University.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestContstructors" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="de3f3d30-04e8-73d4-7ba2-55bf5165a78c" executionId="a50cade5-ce64-4db6-88e1-ebb18de0b3ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a50cade5-ce64-4db6-88e1-ebb18de0b3ad" testId="de3f3d30-04e8-73d4-7ba2-55bf5165a78c" testName="TestContstructors" computerName="OIVOODOO-PC" duration="00:00:00.0367138" startTime="2010-04-05T18:25:23.7826682+03:00" endTime="2010-04-05T18:25:24.0066810+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

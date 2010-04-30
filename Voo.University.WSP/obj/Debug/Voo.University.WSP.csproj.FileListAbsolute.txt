@@ -1,0 +1,5 @@
+E:\Projects\voo-university\Voo.University.WSP\bin\Debug\Voo.University.WSP.dll
+E:\Projects\voo-university\Voo.University.WSP\bin\Debug\Voo.University.WSP.pdb
+E:\Projects\voo-university\Voo.University.WSP\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\voo-university\Voo.University.WSP\obj\Debug\Voo.University.WSP.dll
+E:\Projects\voo-university\Voo.University.WSP\obj\Debug\Voo.University.WSP.pdb
