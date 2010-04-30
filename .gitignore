@@ -5,3 +5,5 @@ _ReSharper.Voo.University.WSP/*
 _UpgradeReport_Files/*
 Backup*/*
 Backup*
+*.exe
+*.exe.manifest
