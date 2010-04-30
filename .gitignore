@@ -3,7 +3,8 @@ _ReSharper.Voo.University.WSP/*
 *.dll
 *.pdb
 *.cache
-Debug/*
+*/*/Release/*
+*/*/Debug/*
 _UpgradeReport_Files/*
 Backup*/*
 Backup*
