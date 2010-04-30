@@ -1,5 +1,0 @@
-E:\Projects\voo-university\Voo.University.Models\bin\Debug\Voo.University.Models.dll
-E:\Projects\voo-university\Voo.University.Models\bin\Debug\Voo.University.Models.pdb
-E:\Projects\voo-university\Voo.University.Models\obj\Debug\ResolveAssemblyReference.cache
-E:\Projects\voo-university\Voo.University.Models\obj\Debug\Voo.University.Models.dll
-E:\Projects\voo-university\Voo.University.Models\obj\Debug\Voo.University.Models.pdb

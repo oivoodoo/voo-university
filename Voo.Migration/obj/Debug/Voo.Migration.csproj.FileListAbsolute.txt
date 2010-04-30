@@ -1,5 +1,0 @@
-E:\Projects\voo-university\Voo.Migration\bin\Debug\Voo.Migration.exe
-E:\Projects\voo-university\Voo.Migration\bin\Debug\Voo.Migration.pdb
-E:\Projects\voo-university\Voo.Migration\obj\Debug\ResolveAssemblyReference.cache
-E:\Projects\voo-university\Voo.Migration\obj\Debug\Voo.Migration.exe
-E:\Projects\voo-university\Voo.Migration\obj\Debug\Voo.Migration.pdb

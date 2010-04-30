@@ -2,6 +2,8 @@ _ReSharper.Voo.University.WSP/*
 *.user
 *.dll
 *.pdb
+*.cache
+Debug/*
 _UpgradeReport_Files/*
 Backup*/*
 Backup*
