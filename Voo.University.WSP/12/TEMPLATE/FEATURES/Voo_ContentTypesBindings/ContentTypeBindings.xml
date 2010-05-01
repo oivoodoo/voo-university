@@ -1,10 +1,27 @@
 ﻿<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
-  <ContentTypeBinding ContentTypeId="0x0100E4950491EA8C4e62AC7697705650494B" ListUrl="Lists/IEFSTimelineConfiguration"/>
-  <ContentTypeBinding ContentTypeId="0x0100D7E131B0A3194d1aBF32B6EA49EE00C5" ListUrl="Lists/ChartConfiguration"/>
   
-  <!-- Bindings to content types dedicating to lists with subscribtions -->
-  <!-- Subscribtions Template -->
-  <ContentTypeBinding ContentTypeId="0x0100E2A7313873444b9896343D36495F81D0" ListUrl="Lists/IEFSSubscribtionTemplates"/>
-  <!-- Subscribtions -->
-  <ContentTypeBinding ContentTypeId="0x0100B94622350BEC4504919A3FC6C536DC34" ListUrl="Lists/IEFSSubscribtions"/>
+  <ContentTypeBinding ContentTypeId="0x0100D00EF827CA8040B39951C835305C224F" ListUrl="Lists/Subjects"/>
+  
+  <ContentTypeBinding ContentTypeId="0x01004C60520364E146789C05C4A341D9D9AD" ListUrl="Lists/Chairs"/>
+
+  <ContentTypeBinding ContentTypeId="0x01004336E1D5438746CDB86BDF73CE45E56D" ListUrl="Lists/Universities"/>
+
+  <ContentTypeBinding ContentTypeId="0x010060290DB301F14BE6BF3A587D22A21FC4" ListUrl="Lists/Tutors"/>
+
+  <ContentTypeBinding ContentTypeId="0x01001C885B841B6848A0B436B90677B6E234" ListUrl="Lists/TypeSubjects"/>
+
+  <ContentTypeBinding ContentTypeId="0x010078E8FA8A0D8840E2B07B329A8BA87439" ListUrl="Lists/Statements"/>
+
+  <ContentTypeBinding ContentTypeId="0x0100C38E2ADB319D4A93BBFDE97826C4CB2C" ListUrl="Lists/Groups"/>
+
+  <ContentTypeBinding ContentTypeId="0x0100FD7AA82DFB4E46A0898CE02F397FA926" ListUrl="Lists/Courses"/>
+
+  <ContentTypeBinding ContentTypeId="0x01007545C96E1BBF4BE393032F051A632735" ListUrl="Lists/Ratings"/>
+
+  <ContentTypeBinding ContentTypeId="0x0100FBF28F8958644BD9B49B2746026A2A01" ListUrl="Lists/TrainingStatuses"/>
+
+  <ContentTypeBinding ContentTypeId="0x010024EDD8C47A6F4101BA93FE0114E2144F" ListUrl="Lists/Students"/>
+
+  <ContentTypeBinding ContentTypeId="0x010087716F4912D84EC98E16F6C831E50F4C" ListUrl="Lists/Marks"/>
+  
 </Elements>

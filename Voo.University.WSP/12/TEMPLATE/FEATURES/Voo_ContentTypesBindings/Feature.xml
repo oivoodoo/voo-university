@@ -1,5 +1,5 @@
-﻿<Feature Description="$Resources: IEFS, Feature_ContentTypeBindings_Description;"
-  Title="$Resources: IEFS, Feature_ContentTypeBindings_Title;"
+﻿<Feature Description="Make content type bindings"
+  Title="Voo Content Types Bindings"
   Id="{A27DDB8D-BF38-46d4-8076-1ADBC6F7DE7D}"
   Scope="Web"
   Hidden="FALSE"
@@ -9,8 +9,6 @@
     <ElementManifest Location="ContentTypeBindings.xml" />
   </ElementManifests>
   <ActivationDependencies>
-    <!-- Begin dependecy by list instances-->
-    <ActivationDependency FeatureId="F4086178-4AAB-4a11-9020-896DC59EAFF5" />
-    <!-- End dependecy by list instances -->
+    <ActivationDependency FeatureId="54206BB6-4EC5-4331-996D-6B96E8640BD7" />
   </ActivationDependencies>
 </Feature>

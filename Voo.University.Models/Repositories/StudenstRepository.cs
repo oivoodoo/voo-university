@@ -13,7 +13,8 @@ namespace Voo.University.Models.Repositories
     {
         protected StudentsRepository(SPSite site)
             : base(site)
-        { }
+        {
+        }
 
 
         protected override string ListName

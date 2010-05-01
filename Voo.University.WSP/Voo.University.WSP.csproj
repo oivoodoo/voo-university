@@ -76,12 +76,19 @@
     <Content Include="12\TEMPLATE\FEATURES\Voo_ContentTypesBindings\ContentTypeBindings.xml" />
     <Content Include="12\TEMPLATE\FEATURES\Voo_ContentTypesBindings\Feature.xml" />
     <Content Include="12\TEMPLATE\FEATURES\Voo_ContentTypes\ContentTypes.xml" />
-    <Content Include="12\TEMPLATE\FEATURES\Voo_ContentTypes\Feature.xml" />
+    <Content Include="12\TEMPLATE\FEATURES\Voo_ContentTypes\Feature.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="12\TEMPLATE\FEATURES\Voo_ContentTypes\Fields.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="12\TEMPLATE\FEATURES\Voo_ListInstances\Feature.xml" />
     <Content Include="12\TEMPLATE\FEATURES\Voo_ListInstances\Lists.xml" />
+    <Content Include="12\TEMPLATE\SiteTemplates\VooUniversity\default.aspx" />
+    <Content Include="12\TEMPLATE\SiteTemplates\VooUniversity\home.gif" />
+    <Content Include="12\TEMPLATE\SiteTemplates\VooUniversity\Login.aspx" />
+    <Content Include="12\TEMPLATE\SiteTemplates\VooUniversity\PR.gif" />
+    <Content Include="12\TEMPLATE\SiteTemplates\VooUniversity\Xml\onet.xml" />
     <Content Include="solutionid.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -124,6 +131,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
