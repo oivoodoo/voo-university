@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+
+  <!-- Chart Configuration Content Type -->
+  <ContentType ID="0x0100D7E131B0A3194d1aBF32B6EA49EE00C5" Name="$Resources:IEFS,Chart_Configuration_ContentType_Name;" Group="$Resources:IEFS,Group_IEFS_Name;" Description="$Resources:IEFS,Chart_Configuration_ContentType_Description;" Version="0" Hidden="FALSE" Sealed="False">
+    <FieldRefs>
+      <FieldRef ID="{4870D84C-111E-4153-BA19-A3A08A8B7E3B}" Name="ChartConfigurationName" Required="TRUE"/>
+      <FieldRef ID="{7B4F49D9-AC1E-455c-8BA2-82952C0EDACD}" Name="ChartConfigurationContent" Required="TRUE"/>
+    </FieldRefs>
+  </ContentType>
+
+</Elements>

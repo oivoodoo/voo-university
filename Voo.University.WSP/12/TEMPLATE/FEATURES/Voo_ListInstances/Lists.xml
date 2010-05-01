@@ -1,0 +1,24 @@
+﻿<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+
+  <ListInstance Title="$Resources:IEFS, News_Configuration_List_Title;" Url="Lists/IEFSNewsConfiguration" FeatureId="051D4673-DA25-4e1a-92BA-5F340FED3290" TemplateType="100">
+  </ListInstance>
+
+  <ListInstance Title="$Resources:IEFS, Pictures_List_Title;" Url="Lists/IEFSPictures" FeatureId="A303DBB9-DA8D-4e41-BB90-79AD5939A3AD" TemplateType="109">
+  </ListInstance>
+
+  <ListInstance Title="$Resources:IEFS, Timeline_Configuration_List_Title;" Url="Lists/IEFSTimelineConfiguration" FeatureId="00BFEA71-DE22-43B2-A848-C05709900100" TemplateType="100">
+  </ListInstance>
+
+  <!---List contains subscribtion templates with macros items for sending emails -->
+  <ListInstance Title="$Resources:IEFS, Subscribtion_Templates_List_Title;" Url="Lists/IEFSSubscribtionTemplates" FeatureId="00BFEA71-DE22-43B2-A848-C05709900100" TemplateType="100">
+  </ListInstance>
+
+  <!---List contains subscribtion to any list -->
+  <ListInstance Title="$Resources:IEFS, Subscribtions_List_Title;" Url="Lists/IEFSSubscribtions" FeatureId="00BFEA71-DE22-43B2-A848-C05709900100" TemplateType="100">
+  </ListInstance>
+
+  <!-- List contains chart configuration that's means fusioncharts templates what you will gather via sharepoint custom job, will place to-->
+  <ListInstance Title="$Resources:IEFS, Chart_Configuration_List_Title;" Url="Lists/ChartConfiguration" FeatureId="00BFEA71-DE22-43B2-A848-C05709900100" TemplateType="100">
+  </ListInstance>
+
+</Elements>

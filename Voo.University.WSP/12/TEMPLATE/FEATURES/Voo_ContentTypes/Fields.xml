@@ -1,0 +1,75 @@
+﻿<Elements xmlns="http://schemas.microsoft.com/sharepoint/" xmlns:D2="http://schemas.itransition.com/dragnet2" xmlns:d2="http://schemas.itransition.com/dragnet2">
+
+  <Field ID="" Type="Text" Group="$Resources:IEFS,Group_IEFS_Name;" DisplayName="$Resources:IEFS,Chart_Configuration_Name_Field_Title;" Required="TRUE" Name="ChartConfigurationName" StaticName="ChartConfigurationName" />
+  <Field ID="{7B4F49D9-AC1E-455c-8BA2-82952C0EDACD}" Type="Note" Group="$Resources:IEFS,Group_IEFS_Name;" DisplayName="$Resources:IEFS,Chart_Configuration_Content_Field_Title;" Name="ChartConfigurationContent" StaticName="ChartConfigurationContent" Required="TRUE" />
+
+  <!-- Timeline Configuration Fields -->
+  <Field ID="{4823398E-BC93-49e8-AEEA-9058700171AD}" Type="Choice" Group="$Resources:IEFS,Group_IEFS_Name;" DisplayName="$Resources:IEFS,Timeline_Configuration_EventType_Field_Title;" Required="TRUE" Name="TimelineEventType" StaticName="TimelineEventType">
+    <CHOICES>
+      <CHOICE>Investment</CHOICE>
+      <CHOICE>Transparency</CHOICE>
+      <CHOICE>Sustainability</CHOICE>
+    </CHOICES>
+  </Field>
+
+  <Field Type="Lookup" 
+         DisplayName="Subject"
+         Required="FALSE"
+         List="Subjects"
+         ShowField="Title"
+         UnlimitedLengthInDocumentLibrary="FALSE"
+         Group="Voo"
+         ID=""
+         StaticName="Subject"
+         Name="Subject" />
+  <Field Type="Lookup"
+         DisplayName="Group"
+         Required="FALSE"
+         List="Groups"
+         ShowField="Title"
+         UnlimitedLengthInDocumentLibrary="FALSE"
+         Group="Voo"
+         ID=""
+         StaticName="Group"
+         Name="Group" />
+  <Field Type="Lookup"
+         DisplayName="Tutor"
+         Required="FALSE"
+         List="Tutors"
+         ShowField="Title"
+         UnlimitedLengthInDocumentLibrary="FALSE"
+         Group="Voo"
+         ID=""
+         StaticName="Tutor"
+         Name="Tutor" />
+  <Field Type="Lookup"
+         DisplayName="Chair"
+         Required="FALSE"
+         List="Chairs"
+         ShowField="Title"
+         UnlimitedLengthInDocumentLibrary="FALSE"
+         Group="Voo"
+         ID=""
+         StaticName="Tutor"
+         Name="Tutor" />
+  <Field Type="Lookup"
+         DisplayName="University"
+         Required="FALSE"
+         List="Universities"
+         ShowField="Title"
+         UnlimitedLengthInDocumentLibrary="FALSE"
+         Group="Voo"
+         ID=""
+         StaticName="University"
+         Name="University" />
+  <Field Type="Lookup"
+         DisplayName="University"
+         Required="FALSE"
+         List="Universities"
+         ShowField="Title"
+         UnlimitedLengthInDocumentLibrary="FALSE"
+         Group="Voo"
+         ID=""
+         StaticName="University"
+         Name="University" />
+</Elements>

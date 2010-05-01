@@ -6,12 +6,15 @@ using System.Text;
 namespace Voo.University.Models.Repositories
 {
     /// <summary>
-    /// Class contains all repository constants for list retrievement;
+    /// Class contains all repository constants for list retrievement.
     /// </summary>
     public static class RepositoryConstants
     {
         #region [ List Names ]
 
+        /// <summary>
+        /// List names
+        /// </summary>
         public static class ListNames
         {
 

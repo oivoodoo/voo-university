@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature Id="{F4086178-4AAB-4a11-9020-896DC59EAFF5}"
+    Title="$Resources: IEFS, Feature_ListInstances_Title;"
+    Description="$Resources: IEFS, Feature_ListInstances_Description;"
+    Version="1.0.0.0"
+    Scope="Web"
+    Hidden="FALSE"
+    xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ElementManifests>
+        <ElementManifest Location="lists.xml" />
+    </ElementManifests>
+    <ActivationDependencies>
+      <!-- Begin dependecy by list templates -->
+      <ActivationDependency FeatureId="CCF9DBB3-1A39-40b5-8D86-861B60389DD2"/>
+      <ActivationDependency FeatureId="6C85A27E-E8FE-4e4f-87A9-207FC7BCB445" />
+      <ActivationDependency FeatureId="A303DBB9-DA8D-4e41-BB90-79AD5939A3AD" />
+      <ActivationDependency FeatureId="2D8E8F05-E798-4254-984F-C009EC5B0CD3" />
+      <!-- End dependecy by list templates -->
+    </ActivationDependencies>
+</Feature>

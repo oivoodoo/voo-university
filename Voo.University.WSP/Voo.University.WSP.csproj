@@ -60,17 +60,40 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="12\Config\Resources\Voo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Voo.resx</DependentUpon>
+    </Compile>
+    <Compile Include="12\Resources\Voo.Designer.cs">
+      <DependentUpon>Voo.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="12\TEMPLATE\FEATURES\Voo_ContentTypesBindings\ContentTypeBindings.xml" />
+    <Content Include="12\TEMPLATE\FEATURES\Voo_ContentTypesBindings\Feature.xml" />
+    <Content Include="12\TEMPLATE\FEATURES\Voo_ContentTypes\ContentTypes.xml" />
+    <Content Include="12\TEMPLATE\FEATURES\Voo_ContentTypes\Feature.xml" />
+    <Content Include="12\TEMPLATE\FEATURES\Voo_ContentTypes\Fields.xml" />
+    <Content Include="12\TEMPLATE\FEATURES\Voo_ListInstances\Feature.xml" />
+    <Content Include="12\TEMPLATE\FEATURES\Voo_ListInstances\Lists.xml" />
     <Content Include="solutionid.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Voo.University.WSP.snk" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="12\TEMPLATE\FEATURES\Voo_ContentTypes\" />
-    <Folder Include="12\TEMPLATE\FEATURES\Voo_ListInstances\" />
+    <EmbeddedResource Include="12\Config\Resources\Voo.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Voo.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="12\Resources\Voo.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Voo.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">

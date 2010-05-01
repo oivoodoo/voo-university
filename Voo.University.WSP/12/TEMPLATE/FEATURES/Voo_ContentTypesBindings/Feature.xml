@@ -1,0 +1,16 @@
+﻿<Feature Description="$Resources: IEFS, Feature_ContentTypeBindings_Description;"
+  Title="$Resources: IEFS, Feature_ContentTypeBindings_Title;"
+  Id="{A27DDB8D-BF38-46d4-8076-1ADBC6F7DE7D}"
+  Scope="Web"
+  Hidden="FALSE"
+  Version="1.0.0.0"
+  xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="ContentTypeBindings.xml" />
+  </ElementManifests>
+  <ActivationDependencies>
+    <!-- Begin dependecy by list instances-->
+    <ActivationDependency FeatureId="F4086178-4AAB-4a11-9020-896DC59EAFF5" />
+    <!-- End dependecy by list instances -->
+  </ActivationDependencies>
+</Feature>

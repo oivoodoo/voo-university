@@ -6,6 +6,9 @@ using Microsoft.SharePoint;
 
 namespace Voo.University.Models.Repositories
 {
+    /// <summary>
+    /// Class contains generic definition for repository pattern.
+    /// </summary>
     public class BaseRepository
     {
         private SPList _list;

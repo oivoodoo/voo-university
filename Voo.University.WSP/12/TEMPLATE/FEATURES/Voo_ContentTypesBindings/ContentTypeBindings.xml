@@ -1,0 +1,10 @@
+﻿<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ContentTypeBinding ContentTypeId="0x0100E4950491EA8C4e62AC7697705650494B" ListUrl="Lists/IEFSTimelineConfiguration"/>
+  <ContentTypeBinding ContentTypeId="0x0100D7E131B0A3194d1aBF32B6EA49EE00C5" ListUrl="Lists/ChartConfiguration"/>
+  
+  <!-- Bindings to content types dedicating to lists with subscribtions -->
+  <!-- Subscribtions Template -->
+  <ContentTypeBinding ContentTypeId="0x0100E2A7313873444b9896343D36495F81D0" ListUrl="Lists/IEFSSubscribtionTemplates"/>
+  <!-- Subscribtions -->
+  <ContentTypeBinding ContentTypeId="0x0100B94622350BEC4504919A3FC6C536DC34" ListUrl="Lists/IEFSSubscribtions"/>
+</Elements>

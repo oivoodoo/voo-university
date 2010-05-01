@@ -1,0 +1,12 @@
+﻿<Feature Description="$Resources: Voo, Feature_ContentTypes_Description;"
+  Title="$Resources: Voo, Feature_ContentTypes_Title;"
+  Id="{DCBA2675-8AA3-4B42-B8DE-14986D09C18C}"
+  Scope="Site"
+  Hidden="FALSE"
+  Version="1.0.0.0"
+  xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="Fields.xml" />
+    <ElementManifest Location="ContentTypes.xml" />
+  </ElementManifests>
+</Feature>
