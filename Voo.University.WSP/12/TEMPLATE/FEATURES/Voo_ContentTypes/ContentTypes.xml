@@ -2,11 +2,191 @@
 
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
 
-  <!-- Chart Configuration Content Type -->
-  <ContentType ID="0x0100D7E131B0A3194d1aBF32B6EA49EE00C5" Name="$Resources:IEFS,Chart_Configuration_ContentType_Name;" Group="$Resources:IEFS,Group_IEFS_Name;" Description="$Resources:IEFS,Chart_Configuration_ContentType_Description;" Version="0" Hidden="FALSE" Sealed="False">
+  <ContentType ID="0x0100D00EF827CA8040B39951C835305C224F" 
+               Name="Subject"
+               Group="Voo"
+               Description="Subject"
+               Version="0"
+               Hidden="FALSE"
+               Sealed="False">
     <FieldRefs>
-      <FieldRef ID="{4870D84C-111E-4153-BA19-A3A08A8B7E3B}" Name="ChartConfigurationName" Required="TRUE"/>
-      <FieldRef ID="{7B4F49D9-AC1E-455c-8BA2-82952C0EDACD}" Name="ChartConfigurationContent" Required="TRUE"/>
+      <FieldRef ID="{F2B93F10-AC75-4DE5-A24A-7FC5DD8EF3E5}" Name="Number"/>
+      <FieldRef ID="{8F98384D-5A6D-4C55-B5D9-AB5754B2C5BA}" Name="Subject"/>
+      <FieldRef ID="{AA0BE0CA-2DD9-45FE-A3E8-0F09D56BE3CC}" Name="Chair"/>
+      <FieldRef ID="{3ECEBDF7-BAAF-46E3-8E59-546A37DBDE63}" Name="Hours"/>
+      <FieldRef ID="{D895D0C0-BADA-4B29-8869-5DB4BABBB984}" Name="AudienceHours"/>
+      <FieldRef ID="{9033A00B-1786-44F8-9363-430105690160}" Name="TestsHours"/>
+      <FieldRef ID="{0BC332FB-AB31-49B3-A2B0-B1A3C5E5B8C7}" Name="CourseWorkHours"/>
+      <FieldRef ID="{CA6EC96E-C240-4A41-A889-3FBA52F1A199}" Name="LabaratoryHours"/>
+    </FieldRefs>
+  </ContentType>
+
+  <ContentType ID="0x01004C60520364E146789C05C4A341D9D9AD"
+             Name="Chair"
+             Group="Voo"
+             Description="Chair"
+             Version="0"
+             Hidden="FALSE"
+             Sealed="False">
+    <FieldRefs>
+      <FieldRef ID="{94D030EF-DC8F-4549-BDC1-80A7BE4F8D79}" Name="ShortTitle"/>
+      <FieldRef ID="{12C53F9E-851A-45A5-A4CB-4857E6501E60}" Name="Description"/>
+      <FieldRef ID="{D342E570-607B-4901-B988-260EE5918C77}" Name="Tutor"/>
+      <FieldRef ID="{CBD79267-4D60-4459-8C28-6E6A7D4481D9}" Name="University"/>
+    </FieldRefs>
+  </ContentType>
+
+  <ContentType ID="0x01004336E1D5438746CDB86BDF73CE45E56D"
+             Name="University"
+             Group="Voo"
+             Description="University"
+             Version="0"
+             Hidden="FALSE"
+             Sealed="False">
+    <FieldRefs>
+      <FieldRef ID="{94D030EF-DC8F-4549-BDC1-80A7BE4F8D79}" Name="ShortTitle"/>
+      <FieldRef ID="{AA0BE0CA-2DD9-45FE-A3E8-0F09D56BE3CC}" Name="Chair"/>
+      <FieldRef ID="{E2F59666-5FD2-4199-9FDD-FDD135C45DD5}" Name="Address"/>
+      <FieldRef ID="{3B603306-EA60-4EB0-B7A5-75B4B481F009}" Name="Country"/>
+      <FieldRef ID="{E6CFB1EA-C4D7-4764-A2F1-5781670F7966}" Name="Phone"/>
+      <FieldRef ID="{A9625C3E-CCA3-44F2-87D5-82BA93CB0488}" Name="Email"/>
+      <FieldRef ID="{6E7E5E0B-CBEA-4232-A153-69639E221361}" Name="City"/>
+    </FieldRefs>
+  </ContentType>
+
+  <ContentType ID="0x010060290DB301F14BE6BF3A587D22A21FC4"
+             Name="Tutor"
+             Group="Voo"
+             Description="Tutor"
+             Version="0"
+             Hidden="FALSE"
+             Sealed="False">
+    <FieldRefs>
+      <FieldRef ID="{A1D23BA7-4083-4512-825E-021D11F82B94}" Name="Firstname"/>
+      <FieldRef ID="{102AC8EB-84ED-40F5-9162-B2DA92310318}" Name="Lastname"/>
+      <FieldRef ID="{C095E68B-0018-412C-8F71-5B5E92D8FC90}" Name="Post"/>
+      <FieldRef ID="{AA0BE0CA-2DD9-45FE-A3E8-0F09D56BE3CC}" Name="Chair"/>
+      <FieldRef ID="{E2F59666-5FD2-4199-9FDD-FDD135C45DD5}" Name="Address"/>
+      <FieldRef ID="{E6CFB1EA-C4D7-4764-A2F1-5781670F7966}" Name="Phone"/>
+      <FieldRef ID="{A9625C3E-CCA3-44F2-87D5-82BA93CB0488}" Name="Email"/>
+    </FieldRefs>
+  </ContentType>
+
+  <ContentType ID="0x01001C885B841B6848A0B436B90677B6E234"
+            Name="TypeSubject"
+            Group="Voo"
+            Description="TypeSubject"
+            Version="0"
+            Hidden="FALSE"
+            Sealed="False">
+    <FieldRefs>
+      <FieldRef ID="{94D030EF-DC8F-4549-BDC1-80A7BE4F8D79}" Name="ShortTitle"/>
+      <FieldRef ID="{12C53F9E-851A-45A5-A4CB-4857E6501E60}" Name="Description"/>
+    </FieldRefs>
+  </ContentType>
+
+  <ContentType ID="0x010078E8FA8A0D8840E2B07B329A8BA87439"
+            Name="Statement"
+            Group="Voo"
+            Description="Statement"
+            Version="0"
+            Hidden="FALSE"
+            Sealed="False">
+    <FieldRefs>
+      <FieldRef ID="{F2B93F10-AC75-4DE5-A24A-7FC5DD8EF3E5}" Name="Number"/>
+      <FieldRef ID="{8F98384D-5A6D-4C55-B5D9-AB5754B2C5BA}" Name="Subject"/>
+      <FieldRef ID="{BA635077-6C36-467F-9207-88D538D6CBAA}" Name="Date"/>
+      <FieldRef ID="{0396AAD3-A3E1-4390-BAB2-84CD833360D9}" Name="Comments"/>
+      <FieldRef ID="{48411206-AA20-455A-BD6C-7868978CAD5D}" Name="TypeSubject"/>
+      <FieldRef ID="{DD4DA4A3-D5A1-48E8-839F-8C28536D716D}" Name="Group"/>
+      <FieldRef ID="{F4AA1843-A5BA-40EA-9982-F2ABDAB0EEDD}" Name="Student"/>
+      <FieldRef ID="{25F08F4E-0041-45B4-B92E-F0692D11A790}" Name="Mark"/>
+      <FieldRef ID="{D342E570-607B-4901-B988-260EE5918C77}" Name="Tutor"/>
+    </FieldRefs>
+  </ContentType>
+
+  <ContentType ID="0x0100C38E2ADB319D4A93BBFDE97826C4CB2C"
+            Name="Group"
+            Group="Voo"
+            Description="Group"
+            Version="0"
+            Hidden="FALSE"
+            Sealed="False">
+    <FieldRefs>
+      <FieldRef ID="{F2B93F10-AC75-4DE5-A24A-7FC5DD8EF3E5}" Name="Number"/>
+      <FieldRef ID="{EB82A58A-6504-44F2-88F5-0E0AA5B6C797}" Name="Course"/>
+    </FieldRefs>
+  </ContentType>
+
+  <ContentType ID="0x0100FD7AA82DFB4E46A0898CE02F397FA926"
+          Name="Course"
+          Group="Voo"
+          Description="Course"
+          Version="0"
+          Hidden="FALSE"
+          Sealed="False">
+    <FieldRefs>
+      <FieldRef ID="{94D030EF-DC8F-4549-BDC1-80A7BE4F8D79}" Name="ShortTitle"/>
+    </FieldRefs>
+  </ContentType>
+
+  <ContentType ID="0x01007545C96E1BBF4BE393032F051A632735"
+        Name="Rating"
+        Group="Voo"
+        Description="Rating"
+        Version="0"
+        Hidden="FALSE"
+        Sealed="False">
+    <FieldRefs>
+      <FieldRef ID="{DD4DA4A3-D5A1-48E8-839F-8C28536D716D}" Name="Group"/>
+      <FieldRef ID="{25F08F4E-0041-45B4-B92E-F0692D11A790}" Name="Mark"/>
+      <FieldRef ID="{EB82A58A-6504-44F2-88F5-0E0AA5B6C797}" Name="Course"/>
+      <FieldRef ID="{BA635077-6C36-467F-9207-88D538D6CBAA}" Name="Date"/>
+      <FieldRef ID="{F4AA1843-A5BA-40EA-9982-F2ABDAB0EEDD}" Name="Student"/>
+    </FieldRefs>
+  </ContentType>
+
+  <ContentType ID="0x0100FBF28F8958644BD9B49B2746026A2A01"
+      Name="TrainingStatus"
+      Group="Voo"
+      Description="TrainingStatus"
+      Version="0"
+      Hidden="FALSE"
+      Sealed="False">
+    <FieldRefs>
+      <FieldRef ID="{94D030EF-DC8F-4549-BDC1-80A7BE4F8D79}" Name="ShortTitle"/>
+    </FieldRefs>
+  </ContentType>
+
+  <ContentType ID="0x010024EDD8C47A6F4101BA93FE0114E2144F"
+    Name="Student"
+    Group="Voo"
+    Description="Student"
+    Version="0"
+    Hidden="FALSE"
+    Sealed="False">
+    <FieldRefs>
+      <FieldRef ID="{A1D23BA7-4083-4512-825E-021D11F82B94}" Name="Firstname"/>
+      <FieldRef ID="{102AC8EB-84ED-40F5-9162-B2DA92310318}" Name="Lastname"/>
+      <FieldRef ID="{DD4DA4A3-D5A1-48E8-839F-8C28536D716D}" Name="Group"/>
+      <FieldRef ID="{CE850172-4FB9-42FA-9E54-E7C5A5D805C7}" Name="AnnualInCome"/>
+      <FieldRef ID="{ADA20D6A-A276-4B6D-B781-3D47248E9355}" Name="NumberOfRecordBook"/>
+      <FieldRef ID="{D881E666-B945-4D98-ABC6-A909EFDEBAF6}" Name="Birthdate"/>
+      <FieldRef ID="{A1304BF4-3DAB-43CE-A34F-F369763594A9}" Name="Citizenship"/>
+      <FieldRef ID="{8ED88DF3-41EE-4596-BA43-F05B2DFE7BCD}" Name="Sex"/>
+      <FieldRef ID="{A5F612C2-B172-4358-B9D3-E4947A7DAA2F}" Name="TrainingStatus"/>
+    </FieldRefs>
+  </ContentType>
+
+  <ContentType ID="0x010087716F4912D84EC98E16F6C831E50F4C"
+      Name="Mark"
+      Group="Voo"
+      Description="Mark"
+      Version="0"
+      Hidden="FALSE"
+      Sealed="False">
+    <FieldRefs>
+      <FieldRef ID="{12C53F9E-851A-45A5-A4CB-4857E6501E60}" Name="Description"/>
     </FieldRefs>
   </ContentType>
 

@@ -34,6 +34,13 @@
          Required="FALSE"
          Name="Phone"
          StaticName="Phone" />
+  <Field ID="{C095E68B-0018-412C-8F71-5B5E92D8FC90}"
+         Type="Text"
+         Group="Voo"
+         DisplayName="Post"
+         Required="FALSE"
+         Name="Post"
+         StaticName="Post" />
   <Field ID="{A9625C3E-CCA3-44F2-87D5-82BA93CB0488}"
          Type="Text"
          Group="Voo"
