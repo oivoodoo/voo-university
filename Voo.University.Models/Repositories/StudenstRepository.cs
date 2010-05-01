@@ -11,6 +11,11 @@ namespace Voo.University.Models.Repositories
     /// </summary>
     public class StudentsRepository : Repository<StudentsRepository>
     {
+        protected StudentsRepository(SPSite site)
+            : base(site)
+        { }
+
+
         protected override string ListName
         {
             get
@@ -19,12 +24,7 @@ namespace Voo.University.Models.Repositories
             }
         }
 
-        protected static override StudentsRepository NewInstance(SPSite site)
-        {
-            return new StudentsRepository { Site = site };
-        }
-
-        public List<Student> GetStudentsByGroupId(String groupId)
+        public List<Student> GetStudentsByGroupId(int groupId)
         {
             SPQuery query = new SPQuery
             {

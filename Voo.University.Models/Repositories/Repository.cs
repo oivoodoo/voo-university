@@ -3,44 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.SharePoint;
+using System.Reflection;
 
 namespace Voo.University.Models.Repositories
 {
     /// <summary>
-    /// Class implements general repository model.
+    /// Class implements general repository model. As template pattern we are using 
+    /// 'Generic Singleton' with one modification for implemeting this singleton as 
+    /// base class.
     /// </summary>
-    public class Repository<T> : IDisposable
+    public class Repository<T> : BaseRepository, IDisposable where T : class
     {
         private static object _sync = new object();
         protected static T _repository;
-        private SPList _list;
 
-        protected abstract String ListName { get; set; }
-
-        protected abstract T NewInstance(SPSite site);
-
-        protected SPSite Site { get; set; }
-
-        protected SPList List
+        protected Repository(SPSite site) : base(site)
         {
-            get
-            {
-                try
-                {
-                    if (_list == null)
-                    {
-                        if (Site != null)
-                        {
-                            _list = Site.RootWeb.Lists[ListName];
-                        }
-                    }
-                }
-                catch (Exception ex) 
-                {
-                    // Adding loging.
-                }
-                return _list;
-            }
         }
 
         public T Current
@@ -59,7 +37,12 @@ namespace Voo.University.Models.Repositories
                 {
                     if (_repository == null)
                     {
-                        _repository = NewInstance(site);
+                        _repository = typeof(T).InvokeMember(typeof(T).Name,
+                                                            BindingFlags.CreateInstance |
+                                                            BindingFlags.Instance |
+                                                            BindingFlags.Public |
+                                                            BindingFlags.NonPublic,
+                                                            null, null, new []{ site }) as T;
                     }
                 }
             }

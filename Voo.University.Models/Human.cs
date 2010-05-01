@@ -10,7 +10,7 @@
     /// Class implements base model for storing general human information
     /// </summary>
     [ContentType("0x01")]
-    public class Human
+    public class Human : DataObject
     {
         public string Name { get; set; }
         public string Surname { get; set; }

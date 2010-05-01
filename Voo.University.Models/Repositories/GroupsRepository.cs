@@ -11,6 +11,11 @@ namespace Voo.University.Models.Repositories
     /// </summary>
     public class GroupsRepository : Repository<GroupsRepository>
     {
+        protected GroupsRepository(SPSite site)
+            : base(site)
+        {
+        }
+
         protected override String ListName
         {
             get
@@ -19,9 +24,9 @@ namespace Voo.University.Models.Repositories
             }
         }
 
-        protected static override GroupsRepository NewInstance(SPSite site)
+        public Group GetGroupByStudentId(int studentId)
         {
-            return new GroupsRepository { Site = site };
+            return null;
         }
     }
 }

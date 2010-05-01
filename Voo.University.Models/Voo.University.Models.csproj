@@ -77,6 +77,7 @@
     <Compile Include="FieldAttribute.cs" />
     <Compile Include="Group.cs" />
     <Compile Include="Human.cs" />
+    <Compile Include="Repositories\BaseRepository.cs" />
     <Compile Include="Repositories\GroupsRepository.cs" />
     <Compile Include="Repositories\Repository.cs" />
     <Compile Include="Repositories\RepositoryConstants.cs" />

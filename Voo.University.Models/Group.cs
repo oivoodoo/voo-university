@@ -10,13 +10,14 @@ namespace Voo.University.Models
         private List<Student> _students = null;
 
         public String Name { get; set; }
+
         public List<Student> Students 
         {
             get
             {
                 if (_students == null)
                 {
-                    using (StudentsRepository repository = StudentsRepository.Create(null))
+                    using (StudentsRepository repository = StudentsRepository.Create(Site))
                     {
                         _students = repository.GetStudentsByGroupId(Id);
                     }
