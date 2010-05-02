@@ -1,39 +1,39 @@
 ﻿<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
 
-  <ListInstance Title="Groups" Url="Lists/Groups" FeatureId="051D4673-DA25-4e1a-92BA-5F340FED3290" TemplateType="100">
+  <ListInstance Title="Groups" Url="Lists/Groups" FeatureId="00BFEA71-DE22-43B2-A848-C05709900100" TemplateType="100">
   </ListInstance>
 
-  <ListInstance Title="Students" Url="Lists/Students" FeatureId="051D4673-DA25-4e1a-92BA-5F340FED3290" TemplateType="100">
+  <ListInstance Title="Students" Url="Lists/Students" FeatureId="00BFEA71-DE22-43B2-A848-C05709900100" TemplateType="100">
   </ListInstance>
 
-  <ListInstance Title="Chairs" Url="Lists/Chairs" FeatureId="051D4673-DA25-4e1a-92BA-5F340FED3290" TemplateType="100">
+  <ListInstance Title="Chairs" Url="Lists/Chairs" FeatureId="00BFEA71-DE22-43B2-A848-C05709900100" TemplateType="100">
   </ListInstance>
 
-  <ListInstance Title="Courses" Url="Lists/Courses" FeatureId="051D4673-DA25-4e1a-92BA-5F340FED3290" TemplateType="100">
+  <ListInstance Title="Courses" Url="Lists/Courses" FeatureId="00BFEA71-DE22-43B2-A848-C05709900100" TemplateType="100">
   </ListInstance>
 
-  <ListInstance Title="Subjects" Url="Lists/Subjects" FeatureId="051D4673-DA25-4e1a-92BA-5F340FED3290" TemplateType="100">
+  <ListInstance Title="Subjects" Url="Lists/Subjects" FeatureId="00BFEA71-DE22-43B2-A848-C05709900100" TemplateType="100">
   </ListInstance>
 
-  <ListInstance Title="Tutors" Url="Lists/Tutors" FeatureId="051D4673-DA25-4e1a-92BA-5F340FED3290" TemplateType="100">
+  <ListInstance Title="Tutors" Url="Lists/Tutors" FeatureId="00BFEA71-DE22-43B2-A848-C05709900100" TemplateType="100">
   </ListInstance>
 
-  <ListInstance Title="Universities" Url="Lists/Universities" FeatureId="051D4673-DA25-4e1a-92BA-5F340FED3290" TemplateType="100">
+  <ListInstance Title="Universities" Url="Lists/Universities" FeatureId="00BFEA71-DE22-43B2-A848-C05709900100" TemplateType="100">
   </ListInstance>
 
-  <ListInstance Title="Ratings" Url="Lists/Ratings" FeatureId="051D4673-DA25-4e1a-92BA-5F340FED3290" TemplateType="100">
+  <ListInstance Title="Ratings" Url="Lists/Ratings" FeatureId="00BFEA71-DE22-43B2-A848-C05709900100" TemplateType="100">
   </ListInstance>
 
-  <ListInstance Title="TrainingStatuses" Url="Lists/TrainingStatuses" FeatureId="051D4673-DA25-4e1a-92BA-5F340FED3290" TemplateType="100">
+  <ListInstance Title="TrainingStatuses" Url="Lists/TrainingStatuses" FeatureId="00BFEA71-DE22-43B2-A848-C05709900100" TemplateType="100">
   </ListInstance>
 
-  <ListInstance Title="TypeSubjects" Url="Lists/TypeSubjects" FeatureId="051D4673-DA25-4e1a-92BA-5F340FED3290" TemplateType="100">
+  <ListInstance Title="TypeSubjects" Url="Lists/TypeSubjects" FeatureId="00BFEA71-DE22-43B2-A848-C05709900100" TemplateType="100">
   </ListInstance>
 
-  <ListInstance Title="Statements" Url="Lists/Statements" FeatureId="051D4673-DA25-4e1a-92BA-5F340FED3290" TemplateType="100">
+  <ListInstance Title="Statements" Url="Lists/Statements" FeatureId="00BFEA71-DE22-43B2-A848-C05709900100" TemplateType="100">
   </ListInstance>
 
-  <ListInstance Title="Marks" Url="Lists/Marks" FeatureId="051D4673-DA25-4e1a-92BA-5F340FED3290" TemplateType="100">
+  <ListInstance Title="Marks" Url="Lists/Marks" FeatureId="00BFEA71-DE22-43B2-A848-C05709900100" TemplateType="100">
   </ListInstance>
 
 </Elements>

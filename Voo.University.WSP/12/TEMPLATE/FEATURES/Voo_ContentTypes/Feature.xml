@@ -9,4 +9,7 @@
     <ElementManifest Location="Fields.xml" />
     <ElementManifest Location="ContentTypes.xml" />
   </ElementManifests>
+  <ActivationDependencies>
+    <ActivationDependency FeatureId="B4FB38A8-3C76-468B-964B-6F863D967AED" />
+  </ActivationDependencies>
 </Feature>

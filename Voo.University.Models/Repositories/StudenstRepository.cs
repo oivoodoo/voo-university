@@ -29,9 +29,16 @@ namespace Voo.University.Models.Repositories
         {
             SPQuery query = new SPQuery
             {
-                Query = String.Format(@"")
+                Query = String.Format(@"
+                                  <Where>
+                                    <Eq>
+                                        <FieldRef Name='Test_Subject' LookupId='TRUE'/>
+                                        <Value Type='Lookup'>{0}</Value>
+                                    </Eq>
+                                  </Where>", groupId)
             };
-            return new List<Student>(); // replace with generated models.
+            SPListItemCollection collection = List.GetItems(query);
+            return GetCollection<Student>(collection);
         }
     }
 }

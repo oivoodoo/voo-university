@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace Voo.Migration
+﻿namespace Voo.Migration
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
+            var manager = new TaskManager();
+            manager.RunTasks();
         }
     }
 }

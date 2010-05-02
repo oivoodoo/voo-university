@@ -49,6 +49,21 @@ namespace Voo.University.Models.Repositories
             return _repository;
         }
 
+        protected List<T> GetCollection<T>(SPListItemCollection collection) where T : class, new()
+        {
+            List<T> values = new List<T>();
+            foreach (SPListItem item in collection)
+            {
+                values.Add(typeof(T).InvokeMember(typeof(T).Name,
+                                                  BindingFlags.CreateInstance |
+                                                  BindingFlags.Instance |
+                                                  BindingFlags.Public |
+                                                  BindingFlags.NonPublic,
+                                                  null, null, new[] { item }) as T);
+            }
+            return values;
+        }
+
         public void Dispose()
         {
             _repository = default(T);

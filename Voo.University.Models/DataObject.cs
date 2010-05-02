@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.SharePoint;
+using System.Reflection;
 
 namespace Voo.University.Models
 {
@@ -26,10 +27,21 @@ namespace Voo.University.Models
             Item = item;
             Web = item.ParentList.ParentWeb;
             Site = Web.Site;
+
+            RetrieveAttributes();
         }
 
-        public DataObject() 
+        public DataObject()
         {
         }
+
+        private void RetrieveAttributes()
+        {
+            foreach (var attribute in GetType().GetCustomAttributes(true))
+            {
+            }
+        }
+
+        // TODO: Add saving methods as generic.
     }
 }

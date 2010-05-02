@@ -3,13 +3,10 @@
     Title="Voo List Instances"
     Description="Create list instances"
     Version="1.0.0.0"
-    Scope="Web"
+    Scope="Site"
     Hidden="FALSE"
     xmlns="http://schemas.microsoft.com/sharepoint/">
     <ElementManifests>
         <ElementManifest Location="Lists.xml" />
     </ElementManifests>
-    <ActivationDependencies>
-      <ActivationDependency FeatureId="54206BB6-4EC5-4331-996D-6B96E8640BD7" />
-    </ActivationDependencies>
 </Feature>

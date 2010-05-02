@@ -11,5 +11,11 @@ namespace Voo.University.Models
         public String ID { get; set; }
 
         public String Name { get; set; }
+
+        public FieldAttribute(String id, String name)
+        {
+            ID = id;
+            Name = name;
+        }
     }
 }

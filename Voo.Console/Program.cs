@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using Microsoft.SharePoint;
 using System.IO;
+using Voo.University.Models;
 
 namespace Voo.Console
 {
@@ -32,13 +33,16 @@ namespace Voo.Console
 //                SPListItemCollection items = list1.GetItems(query);
 //                foreach (SPListItem item in items) { System.Console.WriteLine(item.Title); }
 //            }
-            using (StreamWriter writer = new StreamWriter(new FileStream("1.txt", FileMode.Create)))
-            {
-                for (int i = 0; i < 20; i++)
-                {
-                    writer.WriteLine("0x0100{0}", Guid.NewGuid().ToString().Replace("-", "").ToUpper());
-                }
-            }
+            //using (StreamWriter writer = new StreamWriter(new FileStream("1.txt", FileMode.Create)))
+            //{
+            //    for (int i = 0; i < 20; i++)
+            //    {
+            //        writer.WriteLine("0x0100{0}", Guid.NewGuid().ToString().Replace("-", "").ToUpper());
+            //    }
+            //}
+
+            Group group = new Group(null);
+
         }
     }
 }
