@@ -5,6 +5,7 @@ using System.Text;
 using Microsoft.SharePoint;
 using System.IO;
 using Voo.University.Models;
+using System.Reflection;
 
 namespace Voo.Console
 {
@@ -41,8 +42,14 @@ namespace Voo.Console
             //    }
             //}
 
-            Group group = new Group(null);
-
+            //using (SPSite site = new SPSite("http://localhost/"))
+            //{
+            //    SPList list = site.RootWeb.Lists["Groups"];
+            //    SPListItem item = list.Items.Add();
+            //    item["Title"] = "test";
+            //    item.Update();
+            //    Group group = new Group(item);
+            //}
         }
     }
 }

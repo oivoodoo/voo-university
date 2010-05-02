@@ -8,13 +8,13 @@ namespace Voo.University.Models
     [AttributeUsage(AttributeTargets.Property)]
     public class FieldAttribute : Attribute
     {
-        public String ID { get; set; }
+        public Guid ID { get; set; }
 
         public String Name { get; set; }
 
         public FieldAttribute(String id, String name)
         {
-            ID = id;
+            ID = new Guid(id);
             Name = name;
         }
     }

@@ -37,8 +37,16 @@ namespace Voo.University.Models
 
         private void RetrieveAttributes()
         {
-            foreach (var attribute in GetType().GetCustomAttributes(true))
+            foreach (var property in GetType().GetProperties())
             {
+                foreach (var attribute in property.GetCustomAttributes(false))
+                {
+                    if (attribute is FieldAttribute)
+                    {
+                        FieldAttribute fieldAttribute = attribute as FieldAttribute;
+                        property.SetValue(this, Item[fieldAttribute.ID], null);
+                    }
+                }
             }
         }
 
