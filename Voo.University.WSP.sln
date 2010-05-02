@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voo.Console", "Voo.Console\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voo.Migration", "Voo.Migration\Voo.Migration.csproj", "{BA15657C-7AF1-4F3F-A7EC-9427D84F9F87}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voo.University.Sharepoint", "Voo.Sharepoint\Voo.University.Sharepoint.csproj", "{8A68CFEC-379A-493A-AF87-FF07B486835C}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = Voo.University.WSP.vsmdi
@@ -52,6 +54,10 @@ Global
 		{BA15657C-7AF1-4F3F-A7EC-9427D84F9F87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA15657C-7AF1-4F3F-A7EC-9427D84F9F87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA15657C-7AF1-4F3F-A7EC-9427D84F9F87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A68CFEC-379A-493A-AF87-FF07B486835C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A68CFEC-379A-493A-AF87-FF07B486835C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A68CFEC-379A-493A-AF87-FF07B486835C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A68CFEC-379A-493A-AF87-FF07B486835C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

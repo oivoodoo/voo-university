@@ -4,12 +4,15 @@
   Scope="Site"
   Hidden="FALSE"
   Version="1.0.0.0"
+  ReceiverAssembly="Voo.Sharepoint, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4ae93b9c0c083f24"
+  ReceiverClass="Voo.Sharepoint.LookupFieldsFeatureReciever"
   xmlns="http://schemas.microsoft.com/sharepoint/">
   <ElementManifests>
     <ElementManifest Location="Fields.xml" />
     <ElementManifest Location="ContentTypes.xml" />
   </ElementManifests>
-  <ActivationDependencies>
-    <ActivationDependency FeatureId="B4FB38A8-3C76-468B-964B-6F863D967AED" />
-  </ActivationDependencies>
+  <Properties>
+    <Property Key="FieldsPath" Value="Fields.xml"/>
+    <Property Key="LookupsListMapping" Value="{8F98384D-5A6D-4C55-B5D9-AB5754B2C5BA}=Subjects; {DD4DA4A3-D5A1-48E8-839F-8C28536D716D}=Groups; {D342E570-607B-4901-B988-260EE5918C77}=Tutors; {AA0BE0CA-2DD9-45FE-A3E8-0F09D56BE3CC}=Chairs; {EB82A58A-6504-44F2-88F5-0E0AA5B6C797}=Courses; {48411206-AA20-455A-BD6C-7868978CAD5D}=TypeSubjects; {A5F612C2-B172-4358-B9D3-E4947A7DAA2F}=TrainingStatuses; {25F08F4E-0041-45B4-B92E-F0692D11A790}=Marks; {F4AA1843-A5BA-40EA-9982-F2ABDAB0EEDD}=Students"/>
+  </Properties>
 </Feature>

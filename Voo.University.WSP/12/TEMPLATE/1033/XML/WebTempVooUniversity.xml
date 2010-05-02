@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Templates xmlns:ows="Microsoft SharePoint">
+  <Template Name="VOOUNIVERSITY" ID="30001">
+    <Configuration
+      ID="0"
+      Title="Voo University"
+      Hidden="FALSE"
+      ImageUrl="/_layouts/1033/images/IPPT.gif"
+      Description=""
+      DisplayCategory="VOO" 
+      AllowGlobalFeatureAssociations="True">
+    </Configuration>
+  </Template>
+</Templates>

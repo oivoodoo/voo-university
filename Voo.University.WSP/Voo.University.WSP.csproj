@@ -13,7 +13,7 @@
     <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>Voo.University.WSP.snk</AssemblyOriginatorKeyFile>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <OldToolsVersion>3.5</OldToolsVersion>
@@ -34,6 +34,7 @@
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -73,6 +74,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="12\TEMPLATE\1033\XML\WebTempVooUniversity.xml" />
     <Content Include="12\TEMPLATE\FEATURES\Voo_ContentTypesBindings\ContentTypeBindings.xml" />
     <Content Include="12\TEMPLATE\FEATURES\Voo_ContentTypesBindings\Feature.xml" />
     <Content Include="12\TEMPLATE\FEATURES\Voo_ContentTypes\ContentTypes.xml" />
@@ -84,11 +86,7 @@
     </Content>
     <Content Include="12\TEMPLATE\FEATURES\Voo_ListInstances\Feature.xml" />
     <Content Include="12\TEMPLATE\FEATURES\Voo_ListInstances\Lists.xml" />
-    <Content Include="12\TEMPLATE\SiteTemplates\VooUniversity\default.aspx" />
-    <Content Include="12\TEMPLATE\SiteTemplates\VooUniversity\home.gif" />
-    <Content Include="12\TEMPLATE\SiteTemplates\VooUniversity\Login.aspx" />
-    <Content Include="12\TEMPLATE\SiteTemplates\VooUniversity\PR.gif" />
-    <Content Include="12\TEMPLATE\SiteTemplates\VooUniversity\Xml\onet.xml" />
+    <Content Include="12\TEMPLATE\SiteTemplates\VOOUNIVERSITY\Xml\onet.xml" />
     <Content Include="solutionid.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -131,7 +129,24 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Voo.Sharepoint\Voo.University.Sharepoint.csproj">
+      <Project>{8A68CFEC-379A-493A-AF87-FF07B486835C}</Project>
+      <Name>Voo.University.Sharepoint</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Voo.University.Models\Voo.University.Models.csproj">
+      <Project>{1C9A24E8-AC48-4752-B4DA-A520C49E2C4D}</Project>
+      <Name>Voo.University.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Voo.University.Tests\Voo.University.Tests.csproj">
+      <Project>{73FB07D0-4762-40FC-8377-CFCB346DC368}</Project>
+      <Name>Voo.University.Tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Voo.University.UI\Voo.University.UI.csproj">
+      <Project>{28620F5F-1426-48D5-B9BC-722DF64DB314}</Project>
+      <Name>Voo.University.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

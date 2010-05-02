@@ -172,6 +172,8 @@
          Required="FALSE"
          Name="Number"
          StaticName="Number" />
+  
+  <!-- ######################### Start Lookup Fields ######################### -->
   <Field Type="Lookup" 
          DisplayName="Subject"
          Required="FALSE"
@@ -272,4 +274,5 @@
         ID="{F4AA1843-A5BA-40EA-9982-F2ABDAB0EEDD}"
         StaticName="Student"
         Name="Student" />
+  <!-- ######################### End Lookup Fields ######################### -->
 </Elements>

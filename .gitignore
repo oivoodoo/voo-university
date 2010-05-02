@@ -11,3 +11,4 @@ Backup*/*
 Backup*
 *.exe
 *.exe.manifest
+*/*.wsp
