@@ -68,7 +68,7 @@ namespace Voo.University.Sharepoint
                     {
                         if (reader.MoveToAttribute("Type") && 
                             reader.Value == "Lookup" && 
-                            reader.MoveToAttribute("ID"))
+                            reader.MoveToAttribute("Name"))
                         {
                             fieldId = reader.Value;
                             if (lookupsListMapping.ContainsKey(fieldId))
@@ -82,7 +82,7 @@ namespace Voo.University.Sharepoint
                                 XPathNavigator navigator = doc.DocumentElement.CreateNavigator();
                                 navigator.CreateAttribute("", "List", "", list.ID.ToString());
 
-                                SPFieldLookup field = (SPFieldLookup)web.Fields[new Guid(fieldId)];
+                                SPFieldLookup field = (SPFieldLookup)web.Fields[fieldId];
 
                                 AddWebIdAttribute(web, doc);
                                 field.SchemaXml = RemoveXmlnsAttribute(doc.OuterXml);

@@ -13,8 +13,10 @@ namespace Voo.Console
     {
         static void Main(string[] args)
         {
-//            using (SPSite site = new SPSite("http://localhost/"))
-//            {
+            using (SPSite site = new SPSite("http://localhost/"))
+            {
+                
+            }
 //                SPList list1 = site.RootWeb.Lists["Test"];
 //                SPList list2 = site.RootWeb.Lists["Test2"];
 
@@ -50,6 +52,7 @@ namespace Voo.Console
             //    item.Update();
             //    Group group = new Group(item);
             //}
+            String guid = Guid.NewGuid().ToString();
         }
     }
 }

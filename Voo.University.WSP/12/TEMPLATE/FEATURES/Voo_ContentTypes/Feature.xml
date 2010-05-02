@@ -4,8 +4,8 @@
   Scope="Site"
   Hidden="FALSE"
   Version="1.0.0.0"
-  ReceiverAssembly="Voo.Sharepoint, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4ae93b9c0c083f24"
-  ReceiverClass="Voo.Sharepoint.LookupFieldsFeatureReciever"
+  ReceiverAssembly="Voo.University.Sharepoint, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4ae93b9c0c083f24"
+  ReceiverClass="Voo.University.Sharepoint.LookupFieldsFeatureReciever"
   xmlns="http://schemas.microsoft.com/sharepoint/">
   <ElementManifests>
     <ElementManifest Location="Fields.xml" />
@@ -13,6 +13,8 @@
   </ElementManifests>
   <Properties>
     <Property Key="FieldsPath" Value="Fields.xml"/>
-    <Property Key="LookupsListMapping" Value="{8F98384D-5A6D-4C55-B5D9-AB5754B2C5BA}=Subjects; {DD4DA4A3-D5A1-48E8-839F-8C28536D716D}=Groups; {D342E570-607B-4901-B988-260EE5918C77}=Tutors; {AA0BE0CA-2DD9-45FE-A3E8-0F09D56BE3CC}=Chairs; {EB82A58A-6504-44F2-88F5-0E0AA5B6C797}=Courses; {48411206-AA20-455A-BD6C-7868978CAD5D}=TypeSubjects; {A5F612C2-B172-4358-B9D3-E4947A7DAA2F}=TrainingStatuses; {25F08F4E-0041-45B4-B92E-F0692D11A790}=Marks; {F4AA1843-A5BA-40EA-9982-F2ABDAB0EEDD}=Students"/>
+oivoo    <Property Key="LookupsListMapping" Value="USubject=Subjects; UGroup=Groups; UTutor=Tutors; UChair=Chairs; UCourse=Courses; UTypeSubject=TypeSubjects; UTrainingStatus=TrainingStatuses; UMark=Marks; UStudent=Students; UUniversity=Universities"/>
   </Properties>
 </Feature>
+
+<!--<Property Key="LookupsListMapping" Value="{b5495a18-b48d-4a54-a9ee-e2754e5d2ca5}=Subjects; {dd4da4a3-d5a1-48e8-839f-8c28536d716d}=Groups; {d342e570-607b-4901-b988-260ee5918c77}=Tutors; {aa0be0ca-2dd9-45fe-a3e8-0f09d56be3cc}=Chairs; {eb82a58a-6504-44f2-88f5-0e0aa5b6c797}=Courses; {48411206-aa20-455a-bd6c-7868978cad5d}=TypeSubjects; {a5f612c2-b172-4358-b9d3-e4947a7daa2f}=TrainingStatuses; {25f08f4e-0041-45b4-b92e-f0692d11a790}=Marks; {f4aa1843-a5ba-40ea-9982-f2abdab0eedd}=Students"/>-->

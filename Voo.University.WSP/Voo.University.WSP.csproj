@@ -77,7 +77,9 @@
     <Content Include="12\TEMPLATE\1033\XML\WebTempVooUniversity.xml" />
     <Content Include="12\TEMPLATE\FEATURES\Voo_ContentTypesBindings\ContentTypeBindings.xml" />
     <Content Include="12\TEMPLATE\FEATURES\Voo_ContentTypesBindings\Feature.xml" />
-    <Content Include="12\TEMPLATE\FEATURES\Voo_ContentTypes\ContentTypes.xml" />
+    <Content Include="12\TEMPLATE\FEATURES\Voo_ContentTypes\ContentTypes.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="12\TEMPLATE\FEATURES\Voo_ContentTypes\Feature.xml">
       <SubType>Designer</SubType>
     </Content>

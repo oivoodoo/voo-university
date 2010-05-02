@@ -45,8 +45,6 @@ namespace Voo.University.Sharepoint
             (new LookupReciever()).CreateLookup(properties, GetWebForLookup(properties), filePath);
         }
 
-
-
         public override void FeatureDeactivating(SPFeatureReceiverProperties properties)
         {
             // nothing to do

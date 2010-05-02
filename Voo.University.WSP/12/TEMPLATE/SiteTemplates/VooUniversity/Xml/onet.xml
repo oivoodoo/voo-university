@@ -11,7 +11,7 @@
     <NavBar Name="$Resources:core,category_People;" Prefix="&lt;table border=0 cellpadding=4 cellspacing=0&gt;" Body="&lt;tr&gt;&lt;td&gt;&lt;table border=0 cellpadding=0 cellspacing=0&gt;&lt;tr&gt;&lt;td&gt;&lt;img src=&apos;/_layouts/images/blank.gif&apos; ID=&apos;100&apos; alt=&apos;&apos; border=0&gt;&amp;nbsp;&lt;/td&gt;&lt;td valign=top&gt;&lt;a ID=onetleftnavbar#LABEL_ID# href=&apos;#URL#&apos;&gt;#LABEL#&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;" Suffix="&lt;/table&gt;" ID="1027"/>
   </NavBars>
   <ListTemplates>
-    <ListTemplate Name="d2doclib" Type="14000" BaseType="1" OnQuickLaunch="TRUE" SecurityBits="11" Sequence="110" DisplayName="D2 Document Library" Description="$Resources:core,doclibList_Desc;" Image="/_layouts/images/itdl.gif" FeatureId="FB5F5EDC-6BAD-4630-B0B5-A667A62020A4"/>
+    
   </ListTemplates>
   <DocumentTemplates>
     <DocumentTemplate Path="STS" Name="" DisplayName="$Resources:core,doctemp_None;" Type="100" Default="FALSE" Description="$Resources:core,doctemp_None_Desc;"/>
@@ -80,11 +80,11 @@
         <Module Name="MasterPage"/>
       </Modules>
       <SiteFeatures>
-        <Feature ID="54206BB6-4EC5-4331-996D-6B96E8640BD7">
-          <!-- Voo_ContentTypes -->
-        </Feature>
         <Feature ID="B4FB38A8-3C76-468B-964B-6F863D967AED">
           <!-- Voo_ListInstances -->
+        </Feature>
+        <Feature ID="54206BB6-4EC5-4331-996D-6B96E8640BD7">
+          <!-- Voo_ContentTypes -->
         </Feature>
       </SiteFeatures>
       <WebFeatures>
