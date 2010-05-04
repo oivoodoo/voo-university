@@ -44,6 +44,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -51,12 +52,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ReportManager.cs" />
     <Compile Include="LookupFieldsFeatureReciever.cs" />
     <Compile Include="LookupReciever.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StatementManager.cs" />
+    <Compile Include="StatementReportMenuItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Voo.University.WSP.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Voo.University.Models\Voo.University.Models.csproj">
+      <Project>{1C9A24E8-AC48-4752-B4DA-A520C49E2C4D}</Project>
+      <Name>Voo.University.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

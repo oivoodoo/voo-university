@@ -87,10 +87,12 @@
     <Compile Include="Repositories\GroupsRepository.cs" />
     <Compile Include="Repositories\Repository.cs" />
     <Compile Include="Repositories\RepositoryConstants.cs" />
+    <Compile Include="Repositories\StatementsRepository.cs" />
     <Compile Include="Repositories\StudenstRepository.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Subject.cs" />
+    <Compile Include="Template.cs" />
     <Compile Include="Tutor.cs" />
     <Compile Include="University.cs" />
   </ItemGroup>

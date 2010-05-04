@@ -86,6 +86,12 @@
     <Content Include="12\TEMPLATE\FEATURES\Voo_ContentTypes\Fields.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="12\TEMPLATE\FEATURES\Voo_Controls\Actions.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="12\TEMPLATE\FEATURES\Voo_Controls\Feature.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="12\TEMPLATE\FEATURES\Voo_ListInstances\Feature.xml" />
     <Content Include="12\TEMPLATE\FEATURES\Voo_ListInstances\Lists.xml" />
     <Content Include="12\TEMPLATE\SiteTemplates\VOOUNIVERSITY\Xml\onet.xml" />

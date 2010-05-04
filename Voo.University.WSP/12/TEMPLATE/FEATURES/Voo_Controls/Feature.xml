@@ -1,0 +1,12 @@
+﻿<Feature Description="Create content types"
+  Title="Voo Controls"
+  Id=""
+  Scope="Site"
+  Hidden="FALSE"
+  Version="1.0.0.0"
+  xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="Actions.xml" />
+  </ElementManifests>
+</Feature>
+
