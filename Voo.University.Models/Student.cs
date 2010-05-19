@@ -1,4 +1,5 @@
 ﻿using Voo.University.Models.Repositories;
+
 namespace Voo.University.Models
 {
     /// <summary>

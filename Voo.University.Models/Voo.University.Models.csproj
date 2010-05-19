@@ -89,6 +89,7 @@
     <Compile Include="Repositories\RepositoryConstants.cs" />
     <Compile Include="Repositories\StatementsRepository.cs" />
     <Compile Include="Repositories\StudenstRepository.cs" />
+    <Compile Include="Statement.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Subject.cs" />

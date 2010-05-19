@@ -12,7 +12,7 @@ namespace Voo.University.Models
     /// </summary>
     public class DataObject
     {
-        public int Id { get; set; }
+        protected int Id { get; set; }
 
         /// <summary>
         /// We have to use this objects only we initialized dataobject via SPListItem.

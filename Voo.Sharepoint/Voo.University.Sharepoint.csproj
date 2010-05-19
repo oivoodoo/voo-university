@@ -56,7 +56,6 @@
     <Compile Include="LookupFieldsFeatureReciever.cs" />
     <Compile Include="LookupReciever.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StatementManager.cs" />
     <Compile Include="StatementReportMenuItem.cs" />
   </ItemGroup>
   <ItemGroup>
